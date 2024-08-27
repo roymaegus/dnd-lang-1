@@ -81,7 +81,7 @@ const SentenceBuilder8 = () => {
                 hints={[]}
               />
               {isCorrectOrder !== null && (
-                <div>{isCorrectOrder ? 'Correct! The sentence is: No te olvides de hacer la tarea hoy.' : 'Incorrect'}</div>
+                <div>{isCorrectOrder ? 'So far so good!' : 'Keep Going'}</div>
               )}
             </div>
           </div>

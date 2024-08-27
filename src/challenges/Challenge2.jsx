@@ -77,7 +77,7 @@ const SentenceBuilder2 = () => {
                 hints={[]}
               />
               {isCorrectOrder !== null && (
-                <div>{isCorrectOrder ? 'Correct! The sentence is: Ella está muy feliz hoy.' : 'Incorrect'}</div>
+                <div>{isCorrectOrder ? 'So far so good!' : 'Keep Going'}</div>
               )}
             </div>
           </div>

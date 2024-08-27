@@ -80,7 +80,7 @@ const SentenceBuilder6 = () => {
                 hints={[]}
               />
               {isCorrectOrder !== null && (
-                <div>{isCorrectOrder ? 'Correct! The sentence is: Si tuviera dinero, compraría una casa grande.' : 'Incorrect'}</div>
+                <div>{isCorrectOrder ? 'So far so good!' : 'Keep Going'}</div>
               )}
             </div>
           </div>
