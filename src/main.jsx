@@ -14,7 +14,7 @@ import Challenge9 from './challenges/Challenge9';
 import Challenge10 from './challenges/Challenge10';
 
 const Root = () => (
-  <Router>
+  <Router basename="/dnd-lang-1">
     <Routes>
       <Route path="/" element={<App />} />
       <Route path="/challenge1" element={<Challenge1 />} />
